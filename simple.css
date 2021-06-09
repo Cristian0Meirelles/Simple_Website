@@ -1,0 +1,155 @@
+
+
+html {
+  font-size: 10px;
+  background-color: #a9a9a9;
+  background-image: url("imagens/carl-raw-m3hn2Kn5Bns-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+  }
+#htmlrondom{
+  background-image: url("imagens/florian-olivo-Mf23RF8xArY-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+  body {
+    width: 70%;
+    min-width: 800px;
+    margin: auto;
+    
+  }
+  
+  header, nav, main, article, aside, footer {
+    background-color: rgba(121, 121, 121, 0.8);
+    padding: 2%;
+  }
+  
+  /* Tipografia */
+  h1,h2, h3 {
+    font-family: 'Cinzel Decorative', sans-serif;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  p, li {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffff;
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px rgb(0, 255, 170);
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 2.2rem;
+  }
+  
+  td {
+    font-size: 1.5rem;
+  }
+  
+  
+  header {
+    margin-bottom: 5px;
+  }
+  
+  nav {
+    height: 5px;
+  }
+  
+  nav ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline;
+    color: rgb(0, 0, 0);
+    flex: 1;
+    text-align: left;
+  }
+  
+  nav a, nav span {
+    display: inline-block;
+    font-size: 1.8rem;
+    height: 3rem;
+    line-height: 1.7;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+
+  main {
+    display: flex;
+  }
+  
+  article {
+    flex: 10;
+  }
+  
+  aside {
+    align-items: 10;
+   
+    margin-left: 10px;
+    padding: 1%;
+  }
+  
+  footer {
+    margin-top: 5px;
+    text-align: center;
+  }
+    
+
+  
+  td {
+    border: 1px solid black;
+  }
+  
+  #bestgames{
+    font-family: 'Cinzel Decorative', sans-serif;
+    color: #000000;
+    text-align: center;
+  }
+
+  #td {
+    border: 0.1px solid black;
+  }
+
+  #h3-create{
+    font-family: 'Cinzel Decorative', sans-serif;
+    color: #000000;
+    text-align: center;
+    background-color: rgba(121, 121, 121, 0.8);
+    padding: 2%;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px rgb(0, 255, 170);
+  }
+
+  #clicked{
+    display: inline-block;
+    font-size: 1.8rem;
+    height: 3rem;
+    line-height: 1.7;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  #twenty{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffff;
+    font-size: 1.6rem;
+    line-height: 2.5;
+  }
